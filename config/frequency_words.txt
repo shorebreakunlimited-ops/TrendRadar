@@ -1,55 +1,78 @@
 # ═══════════════════════════════════════════════════════════════
-#                    TrendRadar 频率词配置文件
-#                         Version: 1.1.0
+#           TrendRadar - YouTube Niche Discovery Keywords
 # ═══════════════════════════════════════════════════════════════
-
-# 可视化配置编辑器地址: https://sansan0.github.io/TrendRadar/
-#
-# 凡是左侧有 # 的都是仅供阅读的说明性文字
-#
-# 这个文件用来设置你想关注的新闻关键词。
-# 系统会自动抓取包含这些关键词的热榜新闻推送给你。
-#
-# 文件分为两个区域：
-#   [GLOBAL_FILTER]  - 全局过滤区：排除不想看的内容
-#   [WORD_GROUPS]    - 词组定义区：设置想关注的关键词
-#
-# ═══════════════════════════════════════════════════════════════
+# Format: one keyword or phrase per line
+# Lines starting with # are comments
 
 
-# ───────────────────────────────────────────────────────────────
-#                        全局过滤区
-# ───────────────────────────────────────────────────────────────
-# 在这里写入你不想看到的词，每行一个。
-# 包含这些词的新闻会被自动排除，不会出现在推送中。
-#
-# 使用方法：
-#   震惊              直接写词，包含"震惊"的新闻会被过滤
-#   /赌博|博彩/       用 /.../ 包裹可以匹配多个词（用 | 分隔）
-
-[GLOBAL_FILTER]
-# 过滤标题党
-震惊
+# --- AI & Technology ---
+AI tools
+artificial intelligence
+ChatGPT
+Claude AI
+Gemini
+AI video
+AI generated
+machine learning
+automation
+tech news
 
 
+# --- YouTube & Content Creation ---
+faceless YouTube
+YouTube shorts
+viral video
+content creator
+YouTube monetization
+YouTube algorithm
+trending videos
+video ideas
+passive income YouTube
 
-# ───────────────────────────────────────────────────────────────
-#                        词组定义区
-# ───────────────────────────────────────────────────────────────
-# 在这里写入你想关注的关键词。
-# 每个词组用空行分隔，同一词组内的关键词是"或"的关系。
-#
-# ┌─────────────────────────────────────────────────────────────┐
-# │                      语法总览（快速参考）                      │
-# └─────────────────────────────────────────────────────────────┘
-#
-# 关键词语法：
-#   关键词            普通关键词，标题包含即匹配
-#   /正则/            正则表达式匹配（自动忽略大小写）
-#   关键词 => 别名    给关键词指定显示别名
-#   [组别名]          词组第一行，给整组指定别名
-#   +关键词           必须词，所有必须词都要匹配才算匹配
-#   !关键词           过滤词，匹配则排除该条新闻（仅限当前词组）
+
+# --- Business & Money ---
+passive income
+side hustle
+make money online
+digital products
+dropshipping
+print on demand
+affiliate marketing
+online business
+
+
+# --- Viral & Trending ---
+trending now
+viral trend
+going viral
+most watched
+top trending
+breaking news
+what's hot
+
+
+# --- High CPM Niches ---
+personal finance
+investing
+stock market
+crypto
+real estate
+health and wellness
+weight loss
+mental health
+productivity
+self improvement
+
+
+# --- Entertainment ---
+true crime
+mystery
+conspiracy
+unsolved
+documentary
+history facts
+space exploration
+ancient civilizations#   !关键词           过滤词，匹配则排除该条新闻（仅限当前词组）
 #   @数字             限制该词组最多显示多少条
 #
 # 显示名称优先级：
